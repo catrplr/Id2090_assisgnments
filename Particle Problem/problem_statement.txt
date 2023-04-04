@@ -1,0 +1,8 @@
+Consider a rectangular box with an aspect ratio close to the so-called golden mean. Assume that there are six objects namely, three squares and three circles – each 
+of different size. We need to suggest possible ways to pack them in the box. Obviously, the squares and circles cannot overlap as they represent solid objects in a transport logistics problem. The image beside shows one possible arrangement. The sequence of picking the objects for packing can be either random or according to an algorithm you could think of.
+You are required to do the following:
+(1) Create an input file (say, input.txt) that contains a listing of the objects (object type, its size) to be packed and the size of the box.
+(2) Create a script that performs the necessary computation to ensure that all the six objects are packed in the box and do not overlap. This script should take the above mentioned file (input.txt) as its input. You can use any language of your choice to perform this computation. The output of this script is a text file
+(say, output.txt) which contains the type, size of each object along with its position (say, coordinates relative to one corner of the box).
+(3) Illustrate the position of the packed objects graphically using a plot created using the output.txt file.
+(4) Also plot the output shapes
