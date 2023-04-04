@@ -1,0 +1,7 @@
+rectangle 24.27 15
+circle 4
+circle 2
+circle 1
+square 3
+square 2
+square 5
