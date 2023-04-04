@@ -1,0 +1,34 @@
+(1) Introduction -random placement
+My idea is I will place the shapes randomly then check if any shapes are overlap-
+ping ,if it is overlapping then again randomly select positions .Now, keep running
+this loop until a valid output comes ,now give the valid output containing non
+overlapping shapes as final output
+
+
+(2) Input file
+The input file i.e. input.txt file should cotain the data as following manner
+rectangle 24.27 15
+circle 4
+circle 2
+circle 1
+square 3
+square 2
+square 5
+
+
+(3) Script
+• For this script I have used matplotlib,random ,shapely library.
+• First I have analysed the input.txt .then converted this data into a list
+• Then,I have taken the dimensions of the rectangle as domain for our entire plot.
+• I analysed the biggest shape.
+• after that I have put shapes at random positions and checked if they are
+overlapping with intersections() of shapely library, the final output will be
+the figures which are not overlapping and inside the rectangle
+
+
+(4) Output file
+I have created a ouput.txt file by looping all the shapes their dimensions and
+their positions one by one
+5 Plotting and saving the image
+I have plotted the genarated shapes by using matplotlib, first by sorting if the
+shape is square or circle and then using the respective properties to plot
