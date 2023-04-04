@@ -1,0 +1,8 @@
+Problem Statement :
+Consider a square shaped domain in which there is a circle, roughly occupying half the domain size. On the periphery of the circle, there is a particle (located randomly) that can move autonomously. It takes N steps and for each step, it moves by 1 unit in any one of the four directions (+x, -x, +y, -y), chosen randomly. Your task is to create a possible path and show it using a plot for each particle. It is sufficient if you can show this for three particles. If any particle reaches the periphery of the domain, it can re-enter from the opposite side (i.e., the domain boundaries are periodic).
+The figure above shows a possible example for three particles located randomly on the periphery.
+You are required to do the following:
+(1) Create a script or a set of scripts that performs this task. You can use any language to perform this computation.
+(2) Execute the script and produce the path as a CSV containing the coordinates as a list.
+(3) Plot the list of coordinats to make an image of the path of the particle. Include the circle in the plot.
+(4) Do the above steps for at least 3 different initial locations of the particle and superpose all the paths on a single plot. Create an image of the plot in the same folder as the scripts..
