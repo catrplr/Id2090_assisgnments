@@ -1,0 +1,30 @@
+1 Introduction
+My idea is to draw a circle of radius 55 and a square of of length 140. I have
+used python and matplotlib library to perform this task.My basic idea is to
+generate a point on the circle and use random to change the x axis by keeping
+y constant or change the y axis by keeping x constant.
+2 Script file
+• First I opened Jupyter notebook. In that I imported random ,numpy
+library,mathplotlib library
+• First I created two empty list.Then I used random function to genarate a
+angle between 0 to 2πand plotted a point in the circle by multiplying the
+cos and sin of that angle with the radius and added in the respective lists.
+• Then I have randomly selected x and y axis . Again ,randomly selected
+whether to add or subtract 1.
+• Then I checked whether the point is going outside the domain or not by
+if else statements and finally appended the points in the list
+• I have done this randomization for 1000 times and appended the co-
+ordinates to the list.
+• then I Plotted this using matplotlib
+• I have done this for 3 particles
+3 Shapes
+• I have created the square by plotting the x coordinated and y coordinates
+and joining them ` have created the circle by plotting points as multipli-
+cation of sin and cos and ranging the variable from 0 to 2pi
+1
+4 CSV file
+Now I have 6 lists , 3 containing x coordinates , 3 containing y coordinates.I
+have imported csv module and created csv files for respective x and y axis
+5 Image exporting
+I have saved the jpg which came as output with the help of matplotlib command
+savefig
